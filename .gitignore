@@ -42,3 +42,6 @@ next-env.d.ts
 
 # cloudflare wrangler
 .wrangler/
+
+# eredeti (nagy felbontású) képek - a scripts/optimize-images.mjs ebből dolgozik
+/images-src/
