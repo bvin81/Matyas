@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/* ── Theme 1: Modern Blue (default) ── */
+:root,
+[data-theme="blue"] {
+  --clr-accent:      #2563EB;
+  --clr-accent-dk:   #1d4ed8;
+  --clr-accent-lt:   #60a5fa;
+  --clr-accent-subtle: rgba(37,99,235,0.12);
+  --clr-accent-bg:   #EFF6FF;
+  --clr-dark:        #111827;
+  --clr-dark2:       #1f2937;
+  --clr-surface:     #F8F9FA;
+  --clr-hero-overlay: rgba(17,24,39,0.62);
+}
+
+/* ── Theme 2: Warm Green ── */
+[data-theme="green"] {
+  --clr-accent:      #16a34a;
+  --clr-accent-dk:   #15803d;
+  --clr-accent-lt:   #4ade80;
+  --clr-accent-subtle: rgba(22,163,74,0.12);
+  --clr-accent-bg:   #F0FDF4;
+  --clr-dark:        #14532d;
+  --clr-dark2:       #166534;
+  --clr-surface:     #F7FFF9;
+  --clr-hero-overlay: rgba(20,83,45,0.62);
+}
+
+/* ── Theme 3: Premium Anthracite ── */
+[data-theme="anthracite"] {
+  --clr-accent:      #d97706;
+  --clr-accent-dk:   #b45309;
+  --clr-accent-lt:   #fcd34d;
+  --clr-accent-subtle: rgba(217,119,6,0.12);
+  --clr-accent-bg:   #FFFBEB;
+  --clr-dark:        #0f172a;
+  --clr-dark2:       #1e293b;
+  --clr-surface:     #F8F8F6;
+  --clr-hero-overlay: rgba(15,23,42,0.68);
+}
+
+body {
+  background: #ffffff;
+  color: #1A1A2E;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
